@@ -1,0 +1,413 @@
+/* Layout */
+
+html,body {
+    padding:0;
+    margin:0;
+    height:100%;
+	width: 100%;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+	font-size: medium;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+#left {
+    height: 100%;
+	width: 20%;
+	display: table-cell; 
+	vertical-align: middle;
+	background: #324a5e;
+	color: white;
+	text-align: center;
+}
+#right {
+    height: 100%;
+	width: 100%;
+	display: table-cell;
+    vertical-align: middle;	
+	background: #c9dcef;
+	color: black;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 25;
+	padding-bottom: 10px;
+}
+
+/* Menu */
+
+#left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+	position: fixed;
+	top: 50%;
+	width: 20%;
+	transform: translate(0, -25%);
+}
+
+#nav li {
+	margin: 5px;
+	text-transform: uppercase;
+}
+
+#left a {
+	text-decoration: none;
+	color: white;
+	font-size: large;
+}
+
+#left a:hover {
+	color:#e5e24e;
+}
+
+#picWrapper {
+	position: fixed;
+	top: 0;
+	width: 20%;
+	padding-top: 30px;
+}
+
+#pic {
+	border-radius: 50%;
+	width: 60%;
+}
+
+.iconLink {
+	height: 25px;
+	width: 25px;
+}
+
+.current-page {
+	font-weight: bold;
+}
+
+/* General */
+
+pre {
+	display: inline;
+	margin: 0;
+}
+
+hr {
+	width: 80%
+}
+
+p {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5px;
+}
+
+h1 {
+	text-transform: uppercase;	
+	font-size: x-large;
+	font-weight: bold;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: medium;
+	font-weight: normal;
+	font-style: italic;
+}
+
+header {
+	padding: 10px;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+footer {
+	font-size: x-small;
+	padding-bottom: 2px;
+	padding-top: 50px;
+}
+
+.underConstruction {
+	background: orange;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.soon {
+	font-size: x-small;
+}
+
+.xsmall {
+	font-size: small;
+}
+
+.italic {
+	font-style: italic;
+}
+
+#contact {
+	position: fixed;
+	top: 100%;
+	width: 20%;
+	transform: translate(0, -100%);
+	padding-bottom: 10px;
+}
+
+#right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	font-size: medium;
+}
+
+#right a {
+	text-decoration: none;
+	color: #1265a5;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+/* SVG icons */
+
+svg path {
+	fill: white;
+}
+
+svg:hover path {
+	fill: #e5e24e;
+}
+
+svg {
+	height:50px;
+	width:50px;
+}
+
+.circle-link {
+	width: 100px;
+}
+
+.circle-link:hover {
+	-webkit-filter: drop-shadow(0px 0px 3px rgba(0,0,0,0.4));
+	filter: drop-shadow(0px 0px 3px rgba(0,0,0,0.4));	
+}
+
+/* Horizonal rules */
+
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: rgba(0, 0, 0, 0.7);
+	margin: 10px 0px;
+	width: 100%;
+}
+.hr-sect::before,
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.35);
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 10px;
+}
+
+/* Tooltips */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+	padding: 1px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip-top {
+  bottom: 125%;
+  left: 50%;  
+  margin-left: -60px;
+}
+
+.tooltip-bottom {
+    top: 100%;
+    left: 50%; 
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+/* Projects */
+
+.projectImg {
+	height: 200px;
+}
+
+.projectCaption {
+	font-weight: bold;
+	font-style: italic;
+	font-size: x-small;
+	margin-bottom: 25px;
+}
+
+.projectDesc {
+	margin-bottom: 50px;
+}
+
+/* Resume */
+
+.resumeRow {
+	text-align: justify;
+	font-size: small;
+}
+
+.resumeHeader {
+	font-weight: bold;
+	font-size: medium;
+}
+
+.resumeSubHeader {
+	font-style: italic;
+}
+
+.resumeBlock {
+	margin-bottom: 10px;
+}
+
+.resumeDate {
+	float: right;
+}
+
+.quarter {
+	display: inline-block;
+	width: 24%;
+	height: 100%;
+	vertical-align: top;
+}
+
+.quarter .resumeHeader {
+	text-align: center;
+}
+
+.resumeRow .quarter ul {
+	text-align: center;
+	vertical-align: top;
+}
+
+.subitem {
+	font-size: x-small;
+	vertical-align: top;
+}
+
+.articleLink {
+	font-size: x-small;
+	vertical-align: top;
+}
+
+/* Music */
+
+.album-cover {
+	height: 200px;
+	border: 1px black solid;
+	order: 1;
+}
+
+.album-block > * {
+	margin: 4px;
+}
+
+.album-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.album-block {
+	margin-bottom: 50px;
+}
+
+.album-links li {
+	display: inline;
+}
+
+.album-tracks {
+	order: 2;
+}
+
+.album-row ol {
+	text-align: left;
+	font-size: small;
+	margin: 0px;
+}
+
+.album-title {
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.album-year {
+	font-weight: normal;
+}
+
+.album-desc {
+	font-style: italic;
+}
+
+.album-listen-label {
+	margin: 0px;
+	font-size: medium;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.song-note {
+	font-size: small;
+}
+
+/* Gallery */
+
+.galleryCard {
+	border-radius: 5px;
+	margin: 5px;
+	padding: 10px;
+	cursor: pointer;
+	display: inline-block;
+	box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	background: aliceblue;
+}
+
+.galleryCard:hover {
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+}
+
+.galleryTitle {
+	font-weight: bold;
+}
+
+.galleryCover {
+	margin: 5px;
+	height: 100px;
+}
+
+#apps {
+	cursor: pointer;
+}

@@ -42,30 +42,17 @@
 						
 						<div class="resumeBlock">
 							<div class="resumeHeader">
-								<span>Bentley Systems</span><span class="resumeDate">June 2017-Present</span>
+								<span>Bentley Systems</span><span class="resumeDate">May 2016 - Present</span>
 							</div>
 							<div class="resumeSubHeader">
 								<span>Pittsburgh, PA</span><span class="resumeDate">Associate Software Engineer, Onboarding Program</span>
 							</div>
 							<ul>
-								<li><pre>&nbsp;&nbsp;</pre>Participating in biannual rotation program</li>
-								<li><pre>&nbsp;&nbsp;</pre>Using both client and server web technologies to develop and debug ALIM application</li>
-								<li><pre>&nbsp;&nbsp;</pre>Working in highly cooperative agile environment</li>
-								<li><pre>&nbsp;&nbsp;</pre>Integrated SharePoint data into .NET web app using Microsoft Graph API</li>
-							</ul>
-						</div>
-						
-						<div class="resumeBlock">
-							<div class="resumeHeader">
-								<span>Bentley Systems</span><span class="resumeDate">May 2016 - August 2016</span>
-							</div>
-							<div class="resumeSubHeader">
-								<span>Pittsburgh, PA</span><span class="resumeDate">Software Engineer Intern, InspectTech</span>
-							</div>
-							<ul>
-								<li><pre>&nbsp;&nbsp;</pre>Developed small features and enhancements</li>
-								<li><pre>&nbsp;&nbsp;</pre>Fixed defects and tests</li>
-								<li><pre>&nbsp;&nbsp;</pre>Used .NET, Angular, MSBuild, SQL Server, & Oracle</li>
+								<li><pre>&nbsp;&nbsp;</pre>Selected for inaugural international program (3 months in Vilnius, Lithuania)</li>
+								<li><pre>&nbsp;&nbsp;</pre>Works in cooperative agile environments using Scrum and Kanban</li>
+								<li><pre>&nbsp;&nbsp;</pre>Uses .NET, TypeScript, AngularJS, C++, and SQL in web apps and APIs</li>
+								<li><pre>&nbsp;&nbsp;</pre>Develops enhancements, fixes defects, and performs research-oriented tasks</li>
+								<li><pre>&nbsp;&nbsp;</pre>Writes integration and unit tests using several frameworks</li>
 							</ul>
 						</div>
 						
@@ -92,8 +79,8 @@
 							</div>
 							<ul>
 								<li><pre>&nbsp;&nbsp;</pre>Enforced community standards and expectations</li>
-								<li><pre>&nbsp;&nbsp;</pre>Managed and disciplined 57 freshmen residents</li>
-								<li><pre>&nbsp;&nbsp;</pre>Planned social and academic programs for engineering housing</li>
+								<li><pre>&nbsp;&nbsp;</pre>Managed 57 freshmen residents</li>
+								<li><pre>&nbsp;&nbsp;</pre>Organized social and engineering programs for students</li>
 							</ul>
 						</div>
 						
@@ -103,50 +90,43 @@
 					
 					<div class="resumeRow">
 						<div class="quarter">
-						<div class="resumeHeader">Languages</div>
+						<div class="resumeHeader">Web Technologies</div>
 							<ul>
 								<li>JavaScript</li>
-								<li><span class="subitem">Angular, Node, Jasmine</span></li>
+								<li><span class="subitem">(TypeScript, Angular, Node)</span></li>
 								<li>C#/.NET</li>
-								<li>Java</li>
-								<li><span class="subitem">Android SDK</span></li>
-								<li>SQL</li>
-								<li>C/C++</li>
-								<li>HTML5</li>
+								<li>HTML5/CSS</li>
 								<li>PHP</li>
 							</ul>
 						</div>
 						
 						<div class="quarter">
-							<div class="resumeHeader">Cyber-Physical Systems</div>
+							<div class="resumeHeader">Other Languages</div>
 							<ul>
-								<li>TI Launchpad / Energia</li>
-								<li>IBM Node-RED</li>
-								<li>Raspberry Pi</li>
-								<li>Arduino</li>
+								<li>SQL</li>
+								<li>C++</li>
+								<li>Java</li>
+								<li>Android</li>
 							</ul>
 						</div>
 						
 						<div class="quarter">
-							<div class="resumeHeader">Hardware & Logic</div>
+							<div class="resumeHeader">Testing Frameworks</div>
 							<ul>
-								<li>MIPS</li>
-								<li>HDL Designer</li>
-								<li>Modelsim</li>
-								<li>MARS</li>
-								<li>Altera Quartus</li>
+								<li>Jasmine + Karma</li>
+								<li>Mocha</li>
+								<li>Selenium</li>
+								<li>Google Test</li>
 							</ul>
 						</div>
 						
 						<div class="quarter">
-							<div class="resumeHeader">IDEs & VCS</div>
+							<div class="resumeHeader">Version Control Systems</div>
 							<ul>
-								<li>Visual Studio</li>
-								<li>Netbeans</li>
-								<li>Eclipse</li>
-								<li>Matlab</li>
 								<li>Git</li>
+								<li>VSTS</li>
 								<li>TFS</li>
+								<li>Mercurial</li>
 							</ul>
 						</div>
 					
@@ -156,7 +136,7 @@
 			
 					<div class="resumeRow">
 						<ul>
-							<li>Selected as the Outstanding Senior in Computer Engineering department <a class="articleLink" href="http://www.engineering.pitt.edu/News/2017/ECE-Outstanding-Seniors-2017/" target="_blank">(article)</a><span class="resumeDate">2017</span></li>
+							<li>Selected as the Outstanding Senior in Computer Engineering graduating class <a class="articleLink" href="http://www.engineering.pitt.edu/News/2017/ECE-Outstanding-Seniors-2017/" target="_blank">(article)</a><span class="resumeDate">2017</span></li>
 							<li>2nd Place at Pitt Design Expo in Electrical & Computer Engineering department<span class="resumeDate">2017</span></li>
 							<li>Recipient of Best Freshman Computer Engineering <a href="docs/hybrid_drives.pdf" target="_blank">Conference Paper</a><span class="resumeDate">2014</span></li>
 							<li>Recipient of Buick Engineering Achievers Scholarship<span class="resumeDate">2013</span></li>

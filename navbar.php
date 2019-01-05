@@ -12,8 +12,7 @@
 							"Resume" => "resume.php",
 							"Music" => "music.php",
 							"Art" => "art.php",
-							"Apps" => "apps.php",
-							"Blog" => "blog.php");
+							"Apps" => "apps.php");
 						
 						foreach($pages as $page => $page_value) {
 							echo "<li><a href=\"" . $page_value . "\">" . $page . "</a></li>";

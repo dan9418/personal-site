@@ -14,10 +14,10 @@
 				<div id="home" class="hr-sect">About Me</div>
 			
 					<p>I'm a software engineer, environmentalist, musician, and eclectic hobbyist currently based in Pittsburgh, PA. 
-					I graduated from the University of Pittsburgh in 2017 and now work full-time with <a href="https://bentley.com/">Bentley Systems</a> using several full-stack technologies. 
+					I graduated from the University of Pittsburgh in 2017 and now work full-time with <a href="https://bentley.com/">Bentley Systems</a> using a wide range of technologies. 
 					Outside of work, I’m involved with many technical and creative projects.</p>
 
-					<p>Beyond software, my greatest interests are audio engineering, bicycling, urban agriculture, healthy living, community building, travel, language, and graphic design.</p>
+					<p>Beyond software, my greatest interests are audio engineering, bicycling, urban agriculture, healthy living, politics, travel, language, and graphic design.</p>
 
 				<div id="projects" class="hr-sect">Portfolio</div>
 				
@@ -25,7 +25,7 @@
 				<span class="tooltip"><a href="music.php"><img class="circle-link" src="img/icons/projects/music.svg" alt="Music"/></a><span class="tooltiptext tooltip-bottom">Music</span></span>
 				<span class="tooltip"><a href="art.php"><img class="circle-link" src="img/icons/projects/art.svg" alt="Art"/></a><span class="tooltiptext tooltip-bottom">Art</span></span>
 				<span class="tooltip"><a href="apps.php"><img class="circle-link" src="img/icons/projects/apps.svg" alt="Apps"/></a><span class="tooltiptext tooltip-bottom">Apps</span></span>
-				<span class="tooltip"><a href="blog.php"><img class="circle-link" src="img/icons/projects/blog.svg" alt="Blog"/></a><span class="tooltiptext tooltip-bottom">Blog</span></span>
+				<!--<span class="tooltip"><a href="blog.php"><img class="circle-link" src="img/icons/projects/blog.svg" alt="Blog"/></a><span class="tooltiptext tooltip-bottom">Blog</span></span>-->
 
 				
 				<br /><br />
